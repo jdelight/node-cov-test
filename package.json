@@ -1,0 +1,17 @@
+{
+  "name": "node-cov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js",
+    "test:cov": "istanbul cover _mocha tests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2"
+  }
+}
